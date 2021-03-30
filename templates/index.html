@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel="stylesheet" href="../static/style.css/">
+		 <meta http-equiv="refresh" content="2">
+	</head>
+	<body>
+		<h1>HTI Hydrophone Monitor</h1>
+		<h2>The date and time is: {{ time }}</h2>
+		<h3>        dB = {{ dB }}</h3>
+		<h3>dB average = {{ dBave }}</h3>
+		<h3>      Gain = {{ Gain }}</h3>
+		<form method="post" action="/">
+			<input type="submit" value="toggle_AGC" name="toggleAGC"/>
+		</form>	
+ 
+
+	</body>
+</html>
