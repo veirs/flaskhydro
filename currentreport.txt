@@ -1,0 +1,1 @@
+Input Volume = _102.57_ Average Input = _102.44_ Gain = _11.40_ AGC = _0
